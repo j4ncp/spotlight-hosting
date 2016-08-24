@@ -1,0 +1,273 @@
+body.mobile {
+	width: 100%;
+    height: 100%;
+}
+.mobile .content {
+	display: table;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.mobile a {
+	outline: none;
+	text-decoration: none;
+}
+#headerbar {
+	display: table-row;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	color: white;
+}
+#headerbar .mobile-title {
+	display: inline-block; 
+	margin: 10px auto;
+	font-size: 25px;
+	letter-spacing: 3px;
+}
+#headerbar a.hamburger {
+	/* hamburger icon */
+	background: center center no-repeat transparent;
+	background-image: url('http://3.bp.blogspot.com/-gSkB_FUBX_M/VcOtQdPCRPI/AAAAAAAAAGI/ivM_tyPKS4o/s1600/Hamburger-2.png');
+	background-size: auto 50px;
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+#headerbar img {
+	height: 50px;
+	width: auto;
+}
+#main {
+	display: table-row;
+	height: 100%;
+	width: 100%;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+.mm-page {
+	height: 100%;
+}
+/*----------------------------------------------------------------------------*/
+/* BLOGROLL */
+
+.mobile .blog-posts {
+    /* these are just styles for the example display */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+	background-color: white;
+}
+
+.mobile .post {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/* styles for the post snippets */
+.mobile .post .snippet-outer {
+	margin: auto 0px;
+	display: block;
+	text-align: center;
+}
+.mobile .post .snippet-header {
+	color: white;
+	text-transform: uppercase;
+}
+.mobile .post .snippet-header .post-header-category {
+	font-size: 9px;
+	margin-top: 40px;
+}
+.mobile .post .snippet-header .post-header-title {
+	font-size: 24px;
+	padding-bottom: 0;
+}
+.mobile .post .snippet-header .post-header-datelocation {
+	font-size: 9px;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+.mobile .post .snippet-content {
+	width: 80%;
+	margin: 0px auto;
+}
+.mobile .post .snippet-content img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.2em;
+}
+.mobile .post .snippet-content .snippet-text {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+.mobile .post .snippet-content .tap-more-button {
+	display: block;
+	text-transform: uppercase;
+}
+.mobile .post .snippet-content .tap-more-button a {
+	display: inline-block;
+	font: normal normal 13px Cantarell;
+	padding: 0.5em 1.5em;
+	border-style: solid;
+	border-color: #a01515;
+	border-width: 1px;
+	margin: 1em 0px;
+	outline: none;
+	letter-spacing: 2px;
+	color: black;
+}
+/* additional styles for the post content presentation */
+.mobile .post-body {
+	width: 90%;
+	margin: 0px auto;
+}
+.mobile .wearing table {
+	width: 100%;
+}
+/* styles for post-footer */
+.mobile .post-footer {
+	text-align: center;
+	text-transform: none;
+}
+.mobile .post-footer .post-social-links {
+	display: inline-block;
+	float: none;
+}
+.mobile .post-footer .post-social-links a {
+	display: inline-block;
+	padding: 1em 1.5em;
+}
+.mobile .post-footer .post-footer-comment-link {
+	width: 90%;
+	margin: 1em auto;
+	display: block;
+	text-align: center;
+	float: none;	
+}
+.mobile .post-footer .comment-link {
+	display: block;
+	font: normal normal 13px Cantarell;
+	padding: 0.5em 1.5em;
+	border-style: solid;
+	border-color: #a01515;
+	border-width: 1px;
+	margin: 1em 0px;
+	outline: none;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #a01515;
+}
+.mobile .to-top-of-post-container {
+	width: 90%;
+	margin: 1em auto;
+	display: block;
+	text-align: center;
+}
+.mobile .to-top-of-post {
+	width: auto;
+	border-color: #a01515;
+	color: #a01515;
+	padding: 0.5em 0px;
+	display: block;
+	outline: none;
+	border-style: solid;
+	border-width: 1px;
+	text-decoration: none;
+	font: normal normal 13px Cantarell;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+/* comments */
+.mobile #comments {
+	width: 90%;
+	margin: 1em auto;
+}
+/* classes concerning mmenu : */
+#mobilemenu {
+	font: normal normal 13px Cantarell;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#mobilemenu .mm-selected a, #mobilemenu .mm-selected span {
+	background-color: rgba(255,255,255,0.1);
+	transition: all 0.5s ease;
+}		
+/* format for category and location links */
+#catLinks li, #locLinks li {
+	background-size: 40px 40px;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+#catLinks li a, #locLinks li a {
+	padding-left: 50px;
+}
+/* shift menu item border to a fitting left position */
+#catLinks .mm-listview > li:not(.mm-divider)::after {
+	left: 40px;
+}
+#locLinks .mm-listview > li:not(.mm-divider)::after {
+	left: 40px;
+}
+#follow-mobile .mm-listview > li:not(.mm-divider)::after {
+	left: 10px;
+}
+#follow-mobile li {
+	background-position: 10px 10px;
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+}
+#follow-mobile li a {
+	padding-left: 50px;
+}
+/* pager */
+.mobile #blog-pager-outer {
+	background-color: transparent;
+	width: 80%;
+	margin: 2em auto;
+	display: table;
+	text-align: center;
+	border-spacing: 1em 0px;
+}
+.mobile #blog-pager-inner {
+	display: table-row;
+}
+.mobile #blog-pager-inner a {
+	padding: 0.5em 0px;
+	display: table-cell;
+	outline: none;
+	border-style: solid;
+	border-width: 1px;
+	text-decoration: none;
+	font: normal normal 13px Cantarell;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.mobile #blog-pager-inner a.load-more-posts-button {
+	width: 70%;
+	border-color: #000000;
+	color: #000000;
+}
+.mobile #blog-pager-inner a.to-top {
+	width: auto;
+	border-color: #a01515;
+	color: #a01515;
+}
+.mobile #blog-pager-outer a.blog-pager-older-link, .mobile #blog-pager-outer a.blog-pager-newer-link {
+	display: none;
+}
+.mobile #blog-pager-inner a.load-more-posts-button {
+	
+}
+/* igwidget */
+.mobile .igfeed-widget ul li {
+	width: 16.666%;
+}
+
