@@ -127,6 +127,10 @@ background-image: url('http://2.bp.blogspot.com/-TA9gFDCuHew/VV44rrGP6jI/AAAAAAA
 background-image: url('http://3.bp.blogspot.com/-olGdrJbmpkk/VWroXjtE_XI/AAAAAAAAADo/XI1w0zE34Qk/s1600/facebook-50x50.png');
 }
 
+.link-yt {
+background-image: url('https://1.bp.blogspot.com/-SHyTpfZq2KQ/WAyVbv4183I/AAAAAAAAAIA/yQgYRZ3HVlktGv0RiEu0WnqK6W4h0ow7wCLcB/s1600/youtube-50x50.png');
+}
+
 .linkbar li:hover {
 background-color: #a01515;
 }
